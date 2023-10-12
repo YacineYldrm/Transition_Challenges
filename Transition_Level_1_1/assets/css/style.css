@@ -1,0 +1,13 @@
+div
+{
+    background-color: tomato;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+    transition: 3s ease-out;
+}
+
+div:hover
+{
+    width: 99vw;
+}

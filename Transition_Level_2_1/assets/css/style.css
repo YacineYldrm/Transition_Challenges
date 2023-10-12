@@ -1,0 +1,44 @@
+body
+{
+    background-color: rgb(221, 221, 221);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    font-family: sans-serif;
+}
+
+.container
+{
+    position: relative;
+    overflow: hidden;
+}
+
+.overlay
+{
+    background-color: rgba(0, 0, 0, 0.175);
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    height: 0;
+    display: flex;
+    justify-content: center;
+    transition: all 300ms linear;
+}
+
+.text
+{
+    align-self: center;
+    color: rgba(255, 255, 255, 0.743);
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.container:hover .overlay
+{
+    height: 100%;
+}
